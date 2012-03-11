@@ -30,7 +30,7 @@ index.htmlも触らずに進めてください。
 
 ## STEP0
 
-    $ git checkout step0 -b step0
+    $ git checkout step0
 
 以下の仕様を満たすように script.js を編集してください。
 
@@ -42,7 +42,7 @@ index.htmlも触らずに進めてください。
 
 ## STEP1
 
-    $ git checkout step1 -b step1
+    $ git checkout step1
 
 STEP0で作った script.js をオブジェクト指向にしてください。
 
@@ -53,7 +53,7 @@ STEP0で作った script.js をオブジェクト指向にしてください。
 
 ## STEP2
 
-    $ git checkout step2 -b step2
+    $ git checkout step2
 
 カウントダウン機能とリセット機能を実装してください。
 
