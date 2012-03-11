@@ -1,18 +1,27 @@
 $(function(){
   // ここにコードを記入
-  var button1Counter = 0;
-  var button2Counter = 0;
+  var Button = function(name) {
+    this.name = name;
+    this.element = $('<input/>').
+      attr({type: 'button', value: name}).
+      appendTo('body');
+    this.counter = 0;
 
-  var button1 = $('<input/>').attr({type: 'button', value: 'button1'}).appendTo('body');
-  button1.click(function() {
-    var message = 'button1 は ' + ++button1Counter + ' 回クリックされました';
+    return this;
+  };
+  Button.prototype.countUp = function() {
+    var message = this.name + ' は ' + ++this.counter + ' 回クリックされました';
     console.log(message);
+  };
+
+  var btn1 = new Button('button1');
+  btn1.element.click(function() {
+    btn1.countUp();
   });
-    
-  var button2 = $('<input/>').attr({type: 'button', value: 'button2'}).appendTo('body');
-  button2.click(function() {
-    var message = 'button2 は ' + ++button2Counter + ' 回クリックされました';
-    console.log(message);
+
+  var btn2 = new Button('button2');
+  btn2.element.click(function() {
+    btn2.countUp();
   });
 
 });
