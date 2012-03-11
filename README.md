@@ -30,6 +30,8 @@ index.htmlも触らずに進めてください。
 
 ## STEP0
 
+    $ git checkout step0 -b step0
+
 以下の仕様を満たすように script.js を編集してください。
 
 1. 'button1', 'button2'という名前のボタンを２つ置いてください。
@@ -40,6 +42,8 @@ index.htmlも触らずに進めてください。
 
 ## STEP1
 
+    $ git checkout step1 -b step1
+
 STEP0で作った script.js をオブジェクト指向にしてください。
 
 1. Button というコンストラクタを作り、その中でinput要素の生成・DOMへの追加とカウンタの初期化をおこなってください。
@@ -48,6 +52,8 @@ STEP0で作った script.js をオブジェクト指向にしてください。
 
 
 ## STEP2
+
+    $ git checkout step2 -b step2
 
 カウントダウン機能とリセット機能を実装してください。
 
