@@ -5,10 +5,10 @@ $(function(){
     this.element = $('<input/>').
       attr({type: 'button', value: name}).
       appendTo('body');
-    this.counter = 0;
 
     return this;
   };
+  Button.prototype.counter = 0;
   Button.prototype.countUp = function() {
     var message = this.name + ' は ' + ++this.counter + ' 回クリックされました';
     console.log(message);
