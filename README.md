@@ -39,3 +39,19 @@ index.htmlも触らずに進めてください。
 
 
 ## STEP1
+
+STEP0で作った script.js をオブジェクト指向にしてください。
+
+1. Button というコンストラクタを作り、その中でinput要素の生成・DOMへの追加とカウンタの初期化をおこなってください。
+2. Button オブジェクトのprototypeとしてcountUpメソッドを定義し、その中でカウントアップとconsoleへの出力を行なってください。
+3. ボタンをクリックされた時にそれぞれのcountUpメソッドを呼ぶようにしてください。
+
+
+## STEP2
+
+カウントダウン機能とリセット機能を実装してください。
+
+1. Button オブジェクトのprototypeにcountDown, resetメソッドを実装してください。
+2. 'Count Down' ボタンを追加し、クリックすると button1, button2 両方のcountDown()メソッドを呼ぶようにしてください。
+3. 'Reset' ボタンを追加し、クリックすると button1, button2 両方のresetメソッドを呼ぶようにしてください。
+
