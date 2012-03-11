@@ -13,4 +13,29 @@ Titanium や PhoneGap, enchant.js などはデザイナーが身につければ
 
 ## 準備
 
-    $
+gitが使える方は、好きなディレクトリにこのリポジトリをcloneしてください。
+
+    $ git clone git://github.com/prog4designer/js-hands-on-1.git
+    $ cd js-hands-on-1
+
+gitが準備できていない方は [[https://github.com/prog4designer/js-hands-on-1/tags]] から
+step0.zip から step4.zip までダウンロードして好きなディレクトリに解凍してください。
+
+
+## ルール
+
+編集していいファイルは script.js のみです。  
+index.htmlも触らずに進めてください。
+
+
+## STEP0
+
+以下の仕様を満たすように script.js を編集してください。
+
+1. 'button1', 'button2'という名前のボタンを２つ置いてください。
+2. それぞれクリックするとconsoleに以下の文言を出力するようにしてください。
+   「button1 は 1 回クリックされました」
+3. それぞれのボタンごとに独立してカウントするようにしてください。
+
+
+## STEP1
