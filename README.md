@@ -18,7 +18,7 @@ gitが使える方は、好きなディレクトリにこのリポジトリをcl
     $ git clone git://github.com/prog4designer/js-hands-on-1.git
     $ cd js-hands-on-1
 
-gitが準備できていない方は [[https://github.com/prog4designer/js-hands-on-1/tags]] から
+gitが準備できていない方は https://github.com/prog4designer/js-hands-on-1/tags から
 step0.zip から step4.zip までダウンロードして好きなディレクトリに解凍してください。
 
 
